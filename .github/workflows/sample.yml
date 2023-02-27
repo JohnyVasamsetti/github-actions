@@ -9,4 +9,4 @@ jobs:
       - name: echo welcome
         run: echo "Welcome to Application"
       - name: python versions
-        run: python -version
+        run: python --version
