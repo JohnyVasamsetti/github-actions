@@ -1,0 +1,12 @@
+name: First github actions
+
+on: [push]
+
+jobs:
+  sample-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo welcome
+        run: echo "Welcome to Application"
+      - name: python versions
+        run: python -v
