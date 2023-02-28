@@ -1,6 +1,6 @@
 name: Front-End work flow
 run-name: Johny was doing this task
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
