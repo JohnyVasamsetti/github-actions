@@ -1,5 +1,5 @@
 name: First github actions
-
+run-name: sample-workflow
 on: [push]
 
 jobs:
