@@ -3,7 +3,25 @@ run-name: Johny was doing this task
 on: [push]
 
 jobs:
-  Front-End-Build:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list directories
+        run: ls
+      - name: get code
+        uses: actions/checkout@v3
+      - name: list directories
+        run: ls
+      - name: install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: install dependencies
+        run: npm install
+      - name: build Application
+        run: npm run build
+    
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: list directories
@@ -20,4 +38,4 @@ jobs:
         run: npm install
       - name: test Application
         run: npm test
-        
+
