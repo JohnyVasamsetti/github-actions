@@ -1,0 +1,14 @@
+name: Front-End work flow
+run-name: Johny was doing this task
+on: [push]
+
+jobs:
+  Front-End-Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list directories
+        run: ls
+      - name: get code
+        uses: actions/checkout@v3
+      - name: list directories
+        run: ls
