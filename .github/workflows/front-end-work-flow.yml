@@ -23,6 +23,7 @@ jobs:
     
   test:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: list directories
         run: ls
