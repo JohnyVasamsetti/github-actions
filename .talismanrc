@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: public/vite.svg
+  checksum: 5fe742fa65b1dea8626174e639646dd7665eb5976ae9caa62855bc9bb33aeeb0
+- filename: package-lock.json
+  checksum: 8a3ef43d49f953144e297dd54fe521f0319d30adee1bb5cf85e3d1e6b014861a
+- filename: src/components/HelpArea.jsx
+  checksum: 4f2f3c51a444add01c96b674a7b9870d27f5dd4c0ef0ddbb899257ebbd28d846
+version: ""
